@@ -1,0 +1,13 @@
+names:
+  - can
+  - plastic bottle
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: can-and-bottle-detection
+  url: https://universe.roboflow.com/sreys-workspace/can-and-bottle-detection/dataset/8
+  version: 8
+  workspace: sreys-workspace
+test: ../test/images
+train: ../train/images
+val: ../valid/images
