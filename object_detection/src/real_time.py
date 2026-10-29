@@ -4,7 +4,7 @@ import cv2
 
 # Build project paths safely
 root = Path(__file__).resolve().parents[1]
-model_path = root / "models" / "yolo11s_best.pt"
+model_path = root / "models" / "yolov12s_best.pt"
 
 if not model_path.exists():
     raise FileNotFoundError(f"Model not found at: {model_path}")

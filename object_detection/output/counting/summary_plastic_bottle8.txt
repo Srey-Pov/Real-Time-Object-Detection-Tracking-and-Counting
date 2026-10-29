@@ -1,0 +1,15 @@
+----------------------------
+OBJECT COUNTING SUMMARY
+----------------------------
+
+Video: plastic_bottle8.mp4
+Model: yolov12s_best.pt
+Tracker: ByteTrack
+Confidence: 0.5
+Video FPS: 24.00
+Resolution: 426x240
+Frames Processed: 125
+
+Can Count: 0
+Plastic Bottle Count: 4
+Total Count: 4

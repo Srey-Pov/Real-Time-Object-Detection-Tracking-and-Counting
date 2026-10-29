@@ -1,7 +1,6 @@
 # Real-Time Can and Plastic Bottle Detection, Tracking, and Counting
 
-This project detects, tracks, and counts recyclable objects, specifically cans
-and plastic bottles, using five YOLO object detection models:
+This project detects, tracks, and counts recyclable objects, specifically cans and plastic bottles using five YOLO object detection models:
 
 - YOLOv8s
 - YOLOv9s
@@ -18,14 +17,8 @@ counting using ByteTrack and virtual line crossing.
 
 The project consists of two main parts:
 
-1. Comparative evaluation of five YOLO models for can and plastic bottle
-   detection.
-2. Real-time deployment using YOLO11s, ByteTrack, and virtual line crossing
-   for object tracking and counting.
-
-YOLO11s achieved the highest Precision and the lowest GFLOPs among the
-evaluated models. YOLO11s was selected for the real-time deployment and
-tracking/counting demonstration.
+1. Comparative evaluation of five YOLO models for can and plastic bottle detection.
+2. Real-time deployment using YOLOv12s, ByteTrack, and virtual line crossing for object tracking and counting.
 
 ## Project structure
 

@@ -7,15 +7,15 @@ def main():
     project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     parser = argparse.ArgumentParser(description="Detect waste in image")
 
-    parser.add_argument("--image", help="Path to input image (default: data/images/bottle.jpg)")
+    parser.add_argument("--image", help="Path to input image (default: data/images/images (11).jpg)")
     parser.add_argument("--output", default=os.path.join(project_dir, "output"), help="output directory")
     parser.add_argument("--conf", type=float, default=0.3, help="confidence threshold")
     args = parser.parse_args()
 
     if not args.image:
-        args.image = os.path.join(project_dir, "data", "images", "bottle.jpg")
+        args.image = os.path.join(project_dir, "data", "images", "images (11).jpg")
 
-    model_path = os.path.join(project_dir, "models", "yolo11s_best.pt")
+    model_path = os.path.join(project_dir, "models", "yolov12s_best.pt")
     if not os.path.exists(model_path):
         print(f"Error: Model not found at {model_path}")
         return

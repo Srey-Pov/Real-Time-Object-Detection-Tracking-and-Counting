@@ -1,6 +1,0 @@
-Counting Results
-====================
-Video source: D:\FINAL-PP-Y2\object_detection\models\videos\can.mp4
-Output video: D:\FINAL-PP-Y2\object_detection\output\counting\counted_can.mp4
-Frames processed: 151
-Total cans crossed line: 5
